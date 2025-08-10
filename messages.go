@@ -44,7 +44,6 @@ type DetailedMessage struct {
 	Seen           bool          `json:"seen"`
 	Flagged        bool          `json:"flagged"`
 	IsDeleted      bool          `json:"isDeleted"`
-	Verifications  Verifications `json:"verifications"`
 	Retention      bool          `json:"retention"`
 	RetentionDate  time.Time     `json:"retentionDate"`
 	Text           string        `json:"text"`
